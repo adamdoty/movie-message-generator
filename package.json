@@ -1,0 +1,27 @@
+{
+  "name": "javascript-syntax",
+  "version": "1.0.0",
+  "description": "<!-- JavaScript Syntax - Portfolio Project -->\r # Message Generator",
+  "main": "generate-message.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamdoty/message-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamdoty/message-generator/issues"
+  },
+  "homepage": "https://github.com/adamdoty/message-generator#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
