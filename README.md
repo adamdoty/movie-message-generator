@@ -13,9 +13,7 @@ Generates a movie message including:
 - Movie Genre of the Day
 - Movie Title of the Day
 
-***
 ![GIF showing node output](./src/images/generate-message.gif)
-***
 
 ## How to use
 
