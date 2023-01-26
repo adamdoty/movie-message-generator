@@ -17,6 +17,15 @@ Generates a movie message including:
 
 ## How to use
 
+### Using Chrome
+
+1. Open a new tab to a blank page. (type "about:blank" as the url)
+2. Open the JavaScript console with Chrome DevTools (ctrl + shift + j on Windows)
+3. Copy the "[generate-message-with-data.js](https://github.com/adamdoty/message-generator/blob/main/src/js/generate-message-with-data.js)" file using GitHub's copy raw contents button.
+4. Paste it into the Chrome DevTools Console and run it. 👍
+
+### Locally
+
 1. [Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 2. Make sure you have [Node.js](https://nodejs.org/en/) installed and setup.
 3. Run ```node generate-message.js``` in the terminal.
