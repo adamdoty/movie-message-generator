@@ -1,58 +1,38 @@
-<!-- JavaScript Syntax - Portfolio Project -->
 
-<!-- Prompt -->
-<!-- 
-    1. Every time a user runs a program, they should get a new, randomized output.
-    2. Make you own Theme.
-    3. To make your program truly random, the message that it outputs should be made up of at least three different pieces of data.
-    4. Take what you know of JavaScript syntax so far to build the program and customize it to your liking.
--->
+# 🎞Movie Message Generator🎞
 
-<!-- Theme Ideas -->
-<!-- 
-    Cat quote generator
-    Game quote generator
-    
-    Gaming Magic 8 Ball
-        Game Trivia
-        Game Genre
-        Game Quote
-    
-    Gamer Horoscope
-        Game Pass Game
+## Description
 
-    WINNER - But using mock movie data for the sake of time
-    Gamer History
-        Game Quote
-        Game Genre
-        Game Title from that Genre
-    
-    ACTUAL
-    Moive Mish Mash
-        Movie Quote
-        Movie Genre
-        Movie Title
--->
+The purpose of this project was to demonstrate my knowledge of JavaScript (JS) syntax by creating a random message generator.
 
-<!-- Plan -->
-<!-- 
-    What is it built with?
-        Maybe use Codepen or Replit to make sure that it can run. Ideally have an embed that I can plug into my portfolio website. Possibly extend this later though.
-    What can it do?
-        Its supposed to be a message generator? So generate a message... Don't overdo it.
-    Make a timeline and avoid the temptation to build things that arent required (prevent scope creep)
-        8 - 9 plan and begin
-        9 - 10 script
-        10 - 11
-        11 - 12 polish with HTML + CSS
-        Finish by Lunchtime.
-    
-    ***
-    Planning to extend this using web scraping later
-        scrape wikipedia for game quotes
-        scrape wikipedia for game genres
-        scrape wikipedia for game titles in that genre
-    ***
--->
+## Features
 
-# Movie Quote Generator
+Generates a movie message including:
+
+- Movie Quote of the Day with Quotee
+- Movie Genre of the Day
+- Movie Title of the Day
+
+***
+![GIF showing node output](./src/images/generate-message.gif)
+***
+
+## How to use
+
+1. [Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+2. Make sure you have [Node.js](https://nodejs.org/en/) installed and setup.
+3. Run ```node generate-message.js``` in the terminal.
+
+## Technologies
+
+1. Node.js
+2. ESLint VSCode extension
+
+## Other Notes
+
+I'm aware the size of this "project" is more suitable for a gist. However, exploration and the following additional features would not be possible in gist format:
+
+- Practicing making thorough README.md documentation
+- Learning how to import JSON data into a js file
+- Figuring out how to use and configure ESLint
+- Experimenting with project structure
